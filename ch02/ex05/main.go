@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go_training/ch02/ex05/popcount3"
+	"go_training/ch02/ex05/popcountbottom"
 	"gopl.io/ch2/popcount"
 	"os"
 	"strconv"
