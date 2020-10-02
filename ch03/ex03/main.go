@@ -56,7 +56,7 @@ func illustrate(pointslist [][]float64, zlist []float64) {
 }
 
 func getMinMax(list []float64) (float64, float64) {
-	min, max := list[0], list[0]
+	vmin, vmax := list[0], list[0]
 	for _, v := range list {
 		if v < vmin {
 			vmin = v
