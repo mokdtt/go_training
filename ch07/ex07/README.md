@@ -1,0 +1,4 @@
+- flat.CommadnLine.Varを実行する
+- Flagインターフェイス型のインターフェイスを定義する際に
+- value.String()が呼び出されてDefValueが登録されている
+- そのためdefault値を表示するときはそこが参照されるため°が入って見える
