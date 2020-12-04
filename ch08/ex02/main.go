@@ -62,7 +62,7 @@ func handleConn(c net.Conn) {
 				io.WriteString(c, "250 CWD command successful\n")
 			}
 		case "PWD":
-			io.WriteString(c, fmt.Sprintf("257 %s\n", currentDir)) //表示されない
+			io.WriteString(c, fmt.Sprintf("257 \"%s\" is the current directory.\n", currentDir))
 		case "TYPE":
 			io.WriteString(c, "200 スルー(本当はすべきでない)\n")
 		case "RETR":
