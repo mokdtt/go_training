@@ -12,7 +12,7 @@ import (
 	"os"
 	"strconv"
 
-	"./tempconv" //versionによっては相対importでは動かない
+	"go_training/ch02/ex01/tempconv"
 )
 
 func main() {
