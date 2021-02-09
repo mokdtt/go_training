@@ -76,9 +76,9 @@ func encodeJson(buf *bytes.Buffer, v reflect.Value) error {
 
 	case reflect.Bool:
 		if v.Bool() {
-			fmt.Fprintf(buf, "t")
+			fmt.Fprintf(buf, "true")
 		} else {
-			fmt.Fprintf(buf, "nil")
+			fmt.Fprintf(buf, "false")
 		}
 
 	case reflect.Float32, reflect.Float64:
